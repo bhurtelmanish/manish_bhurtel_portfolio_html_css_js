@@ -181,7 +181,17 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--light-gray);
   overflow: hidden;
 }
-
+.download{
+  background-color: var(--theme-color);
+  color: white;
+  border-radius: 1rem;
+  /* height: 3rem; */
+  padding: 0.8rem;
+  margin-top: 1.4rem;
+}
+.download:hover{
+  background-color: red;
+}
 .has-before {
   position: relative;
   z-index: 1;
@@ -511,7 +521,6 @@ body::-webkit-scrollbar-thumb {
 .pricing-card {
   --color: var(--black);
   --icon-color: var(--theme-color);
-
   background-color: var(--white);
   border-radius: var(--radius-10);
   box-shadow: var(--shadow);
